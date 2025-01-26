@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Workout_RestFul.props" />
+</Project>

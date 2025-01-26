@@ -1,0 +1,160 @@
+[
+  {
+    "ContainingType": "RestFul.Controllers.WorkoutController",
+    "Method": "Get",
+    "RelativePath": "api/Workout",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestFul.Controllers.WorkoutController",
+    "Method": "Post",
+    "RelativePath": "api/Workout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "RestFul.Dto_s.CreateWorkoutDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestFul.Controllers.WorkoutController",
+    "Method": "Get",
+    "RelativePath": "api/Workout/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestFul.Controllers.WorkoutController",
+    "Method": "Put",
+    "RelativePath": "api/Workout/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateWorkout",
+        "Type": "RestFul.Dto_s.Workouts.UpdateWorkoutDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestFul.Controllers.WorkoutController",
+    "Method": "Delete",
+    "RelativePath": "api/Workout/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestFul.Controllers.ExerciseController",
+    "Method": "Get",
+    "RelativePath": "app/Exercise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestFul.Controllers.ExerciseController",
+    "Method": "Post",
+    "RelativePath": "app/Exercise",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newExerciseDTO",
+        "Type": "RestFul.Dto_s.Exercises.CreateExerciseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestFul.Controllers.ExerciseController",
+    "Method": "Get",
+    "RelativePath": "app/Exercise/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestFul.Controllers.ExerciseController",
+    "Method": "Put",
+    "RelativePath": "app/Exercise/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateExercise",
+        "Type": "RestFul.Dto_s.Exercises.UpdateExerciseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RestFul.Controllers.ExerciseController",
+    "Method": "Delete",
+    "RelativePath": "app/Exercise/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
